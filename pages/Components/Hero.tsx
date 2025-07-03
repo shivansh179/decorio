@@ -19,7 +19,7 @@ const Hero = () => {
                   alt="Orange modular kitchen"
                   className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <span className="absolute top-4 right-4 bg-liv-green text-white text-xs font-bold px-3 py-1 rounded-full">
+                <span className="absolute top-4 right-4 bg-liv-green text-white text-xs font-bold px-4 py-1 rounded-full">
                   COMPLETED
                 </span>
               </div>
