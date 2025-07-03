@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { ChevronDown, Phone, Mail, MapPin, Star, ArrowRight, Menu, X, Calendar, Shield, Users, Award, Heart, Camera, Play, CheckCircle, Sparkles, Palette, Home, Clock, TrendingUp, Eye, Lightbulb, Zap, Gift, Coffee, Building, Sofa, ChefHat, Bed } from 'lucide-react';
+import Link from 'next/link';
 
 interface ExperienceCenter {
   name: string;
@@ -75,7 +76,8 @@ const DesignCafeHomepage: React.FC = () => {
     {
       title: "Luxury Kitchen Design",
       description: "Modern, functional kitchens that blend aesthetics with efficiency, featuring premium materials and smart storage solutions",
-      image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop",
+      // image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1600684388091-627109f3cd60?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGtpdGNoZW58ZW58MHx8MHx8fDA%3D",
       features: ["Modular Designs", "Smart Storage", "Premium Appliances", "Custom Islands"]
     },
     {
@@ -93,7 +95,7 @@ const DesignCafeHomepage: React.FC = () => {
     {
       title: "Smart Wardrobe Solutions",
       description: "Custom storage solutions that maximize space while maintaining elegance and accessibility",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1672137233327-37b0c1049e77?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2FyZHJvYmV8ZW58MHx8MHx8fDA%3D",
       features: ["Organized Systems", "Mirror Integration", "Shoe Racks", "Jewelry Drawers"]
     }
   ];
@@ -130,7 +132,7 @@ const DesignCafeHomepage: React.FC = () => {
   const stats = [
     { number: "10,000+", label: "Happy Customers", icon: Heart },
     { number: "400+", label: "Interior Designers", icon: Users },
-    { number: "15+", label: "Experience Centers", icon: Home },
+    // { number: "15+", label: "Experience Centers", icon: Home },
     { number: "10 Years", label: "Warranty", icon: Shield }
   ];
 
@@ -176,13 +178,13 @@ const DesignCafeHomepage: React.FC = () => {
       icon: Award,
       stats: ["ISO Certified", "Premium Brands", "Quality Assured"]
     },
-    {
-      title: "Technology-Driven Process",
-      description: "Advanced 3D visualization, project management apps, and smart home integration for a seamless experience",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop",
-      icon: Zap,
-      stats: ["3D Visualization", "Smart Home Ready", "App-Based Tracking"]
-    },
+    // {
+    //   title: "Technology-Driven Process",
+    //   description: "Advanced 3D visualization, project management apps, and smart home integration for a seamless experience",
+    //   image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop",
+    //   icon: Zap,
+    //   stats: ["3D Visualization", "Smart Home Ready", "App-Based Tracking"]
+    // },
     {
       title: "Comprehensive Warranty",
       description: "Industry-leading 10-year warranty on all work with lifetime support and maintenance services",
@@ -219,7 +221,6 @@ const DesignCafeHomepage: React.FC = () => {
   return (
     <>
     <div className="min-h-screen bg-white overflow-x-hidden">
-      {/* Header */}
       <header className="bg-white/95 backdrop-blur-md shadow-lg sticky top-0 z-50 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
@@ -229,28 +230,37 @@ const DesignCafeHomepage: React.FC = () => {
               </div>
             </div>
             
-            {/* Desktop Navigation */}
-            <nav className="hidden md:flex space-x-8">
+           <nav className="hidden md:flex space-x-8">
               <a href="#" className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group">
                 Interior Design
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="#" className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group">
+
+
+              {/* <a href="#" className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group">
                 Experience Centers
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a href="#" className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group">
-                Portfolio
+              </a> */}
+
+            <Link href="/Portfolio">
+              <div className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group">
+              Bespoke design portfolio
+
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
+              </div>
+              </Link>
               <a href="#" className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group">
                 Reviews
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="/Contact" className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group">
+
+
+              {/* <a href="/Contact" className="text-gray-700 hover:text-orange-600 transition-all duration-300 font-medium relative group">
                 Contact
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-600 transition-all duration-300 group-hover:w-full"></span>
-              </a>
+              </a> */}
+
+
             </nav>
 
             <div className="flex items-center space-x-4">
@@ -522,7 +532,7 @@ const DesignCafeHomepage: React.FC = () => {
           <div className="text-center mb-20">
             <div className="flex items-center justify-center mb-4">
               <Camera className="h-8 w-8 text-orange-600 mr-3" />
-              <span className="text-orange-600 font-semibold text-lg">Our Portfolio</span>
+              <span className="text-orange-600 font-semibold text-lg">Bespoke design portfolio</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Stunning Home Transformations
@@ -603,7 +613,7 @@ const DesignCafeHomepage: React.FC = () => {
               <Building className="h-8 w-8 text-orange-600 mr-3" />
               <span className="text-orange-600 font-semibold text-lg">Our Showrooms</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Visit Our Experience Centers</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Cities in which we operate</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Touch, feel, and experience our designs and materials firsthand at a showroom near you.</p>
           </div>
 

@@ -12,7 +12,7 @@ interface IconProps {
     </svg>
 );
 
-const LivspaceLandingPage = () => {
+const BeSpokeLandingPage = () => {
     const [openFaq, setOpenFaq] = useState(0);
 
     const handleFaqToggle = (index: number) => {
@@ -55,7 +55,7 @@ const LivspaceLandingPage = () => {
 
     const howItWorksSteps = [
         { label: "Meet a designer", payment: null, icon: "M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" },
-        { label: "Book Livspace", payment: "(5% payment*)", icon: "M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" },
+        { label: "Book BeSpoke", payment: "(5% payment*)", icon: "M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" },
         { label: "Execution begins", payment: "(60% payment)", icon: "M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" },
         { label: "Final installations", payment: "(100% payment)", icon: "M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" },
         { label: "Move in and enjoy!", payment: null, icon: "M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.125-.504 1.125-1.125V14.25m-17.25 4.5v-1.875a3.375 3.375 0 013.375-3.375h9.75a3.375 3.375 0 013.375 3.375v1.875" },
@@ -63,7 +63,7 @@ const LivspaceLandingPage = () => {
 
     const faqs = [
         { q: "How much does interior design cost in Bangalore?", a: "The cost varies greatly depending on the scope, materials, and size of your home. A 2BHK modular interior can start from around ₹3.5L, but a full-scope project with civil work will be higher. We provide a detailed quote after understanding your requirements." },
-        { q: "How to find an interior designer in Bangalore?", a: "You can find designers through online platforms like Livspace, referrals, or local directories. Livspace offers a curated experience by matching you with a designer who fits your style and budget, ensuring quality and timely delivery." },
+        { q: "How to find an interior designer in Bangalore?", a: "You can find designers through online platforms like BeSpoke, referrals, or local directories. BeSpoke offers a curated experience by matching you with a designer who fits your style and budget, ensuring quality and timely delivery." },
         { q: "How much does a 2BHK interior cost in Bangalore?", a: "Our modular interior packages for a new 2BHK home start at approximately ₹3.57L. This typically includes essentials like modular kitchen and wardrobes. The final price depends on your specific choices of materials, finishes, and scope of work." },
         { q: "What will be the timelines for my project completion?", a: "We are proud of our 45-day move-in guarantee for projects with a specific scope of modular products. For projects involving civil work or more complex designs, the timeline will be discussed and agreed upon with your designer." },
         { q: "What services are included under home interior design?", a: "Our services cover everything from design consultation to execution. This includes modular furniture (kitchens, wardrobes), lighting, flooring, false ceilings, civil work, painting, and decor. We are a one-stop solution for all your interior needs." },
@@ -76,7 +76,7 @@ const LivspaceLandingPage = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center py-4">
                         <div className="flex-shrink-0">
-                            <h1 className="text-2xl font-bold tracking-tight text-gray-900">LIVSPACE</h1>
+                            <h1 className="text-2xl font-bold tracking-tight text-gray-900">BeSpoke</h1>
                         </div>
                         <button className="bg-teal-500 text-white font-semibold py-2 px-6 rounded-lg shadow-md hover:bg-teal-600 transition duration-300">
                             GET FREE QUOTE
@@ -100,7 +100,7 @@ const LivspaceLandingPage = () => {
                                     Hassle-free home interiors guaranteed with our best interior designers in Bangalore.
                                 </p>
                             </div>
-                            <div className="bg-white rounded-2xl p-8 shadow-2xl text-gray-800">
+                            <div className="bg-white rounded-2xl p-8 shadow-2xl">
                                 <h3 className="text-2xl font-bold mb-6">Designs for Every Budget</h3>
                                 <form action="#" method="POST" className="space-y-6">
                                     <input type="text" placeholder="Name" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-teal-500 focus:border-teal-500 transition" />
@@ -115,7 +115,7 @@ const LivspaceLandingPage = () => {
                                     <button type="submit" className="w-full bg-teal-500 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-teal-600 transition duration-300">
                                         NEXT
                                     </button>
-                                    <p className="text-xs text-gray-500 text-center">By submitting this form, you agree to the privacy policy & terms and conditions</p>
+                                    <p className="text-xs text-black text-center">By submitting this form, you agree to the privacy policy & terms and conditions</p>
                                 </form>
                             </div>
                         </div>
@@ -145,7 +145,7 @@ const LivspaceLandingPage = () => {
                 {/* Why Choose Us */}
                 <section className="bg-teal-500 text-white">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-                        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">Why Choose Livspace in Bangalore?</h2>
+                        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">Why Choose BeSpoke in Bangalore?</h2>
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                             {stats.map((stat, index) => (
                                 <div key={index} className="text-center">
@@ -338,9 +338,9 @@ const LivspaceLandingPage = () => {
             {/* Footer */}
             <footer className="bg-gray-800 text-gray-400">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-                     <p className="text-center text-sm">© {new Date().getFullYear()} Livspace.com. All Rights Reserved.</p>
+                     <p className="text-center text-sm">© {new Date().getFullYear()} BeSpoke.com. All Rights Reserved.</p>
                      <p className="text-center text-xs mt-4 max-w-4xl mx-auto">
-                        ¹For full scope, please visit www.livspace.com/in/service | ²For kitchen, wardrobes and storage | ³In comparison with a branded player and for exact scope | ⁴Booking amount is 5% of the final quote or Rs. 25000, whichever is higher.
+                        ¹For full scope, please visit www.BeSpoke.com/in/service | ²For kitchen, wardrobes and storage | ³In comparison with a branded player and for exact scope | ⁴Booking amount is 5% of the final quote or Rs. 25000, whichever is higher.
                      </p>
                 </div>
             </footer>
@@ -358,4 +358,4 @@ const LivspaceLandingPage = () => {
     );
 };
 
-export default LivspaceLandingPage;
+export default BeSpokeLandingPage;
