@@ -4,7 +4,7 @@ import React from 'react';
 
 const projects = [
   {
-    image: "https://images.unsplash.com/photo-1556784344-ad913c73cfc4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmxhdHN8ZW58MHx8MHx8fDA%3D",
+    image: "/assets/bedrooms/Slide16.png",
     title: "Contemporary 3BHK Apartment Design with Beige Wall Panel",
     location: "Subishi Iris Villas",
     scope: "Full Home, Kitchen, Swing Wardrobe",
@@ -13,7 +13,7 @@ const projects = [
     imageCount: 7,
   },
   {
-    image: "https://images.unsplash.com/photo-1600121848594-d8644e57abab?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/assets/bedrooms/Slide11.png",
     title: "3BHK Independent House Design in Hyderabad with Parallel Kitchen",
     location: "Ideal Blooms",
     scope: "Full Home, Kitchen, Modular Ward...",
@@ -22,7 +22,7 @@ const projects = [
     imageCount: 7,
   },
   {
-    image: "https://images.unsplash.com/photo-1611234688667-76b6d8fadd75?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmxhdHMlMjByb29tc3xlbnwwfHwwfHx8MA%3D%3D",
+    image: "/assets/bedrooms/Slide12.png",
     title: "Contemporary 3BHK Apartment Design with Built-in TV Unit",
     location: "Prestige Tranquil",
     scope: "Full Home, Kitchen, Kids Bedroom",
@@ -31,7 +31,7 @@ const projects = [
     imageCount: 10,
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1661964402307-02267d1423f5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZsYXRzJTIwbHV4dXJ5fGVufDB8fDB8fHww",
+    image: "/assets/bedrooms/Slide15.png",
     title: "Luxury Apartment Design with Built-in TV Unit",
     location: "Prestige Tranquil",
     scope: "Full Home, Kitchen, Kids Bedroom",

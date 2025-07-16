@@ -15,7 +15,7 @@ const Hero = () => {
             <div className="bg-white rounded-lg overflow-hidden cursor-pointer group">
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/assets/rooms/7a0cc3a9-b723-43aa-8ebc-621c9d049416 - Copy.jpg"
                   alt="Orange modular kitchen"
                   className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -35,7 +35,7 @@ const Hero = () => {
             <div className="bg-white rounded-lg overflow-hidden cursor-pointer group">
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=3027&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/assets/rooms/3e04c3f7-24d9-45c1-bd4f-78e6753d941a.jpg"
                   alt="Modern living room with a teal sofa"
                   className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-105"
                 />

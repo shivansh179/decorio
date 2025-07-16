@@ -8,7 +8,7 @@ const LeadForm = () => {
                 {/* Image side */}
                 <div className="w-full lg:w-1/2">
                     <img 
-                        src="https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                        src="/assets/rooms/52ed0703-1851-4199-936e-063fd5985775.jpg" 
                         alt="Luxurious living room interior"
                         className="w-full h-full object-cover min-h-[400px]"
                     />

@@ -77,25 +77,29 @@ const DesignCafeHomepage: React.FC = () => {
       title: "Luxury Kitchen Design",
       description: "Modern, functional kitchens that blend aesthetics with efficiency, featuring premium materials and smart storage solutions",
       // image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop",
-      image: "https://images.unsplash.com/photo-1600684388091-627109f3cd60?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGtpdGNoZW58ZW58MHx8MHx8fDA%3D",
+      // image: "https://images.unsplash.com/photo-1600684388091-627109f3cd60?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGtpdGNoZW58ZW58MHx8MHx8fDA%3D",
+      image : '/assets/kitchen/04.png',
       features: ["Modular Designs", "Smart Storage", "Premium Appliances", "Custom Islands"]
     },
     {
       title: "Living Room Masterpieces", 
       description: "Elegant living spaces that become the heart of your home, designed to impress and comfort every guest",
-      image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=400&fit=crop",
+      // image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=400&fit=crop",
+      image: "/assets/bedrooms/Slide17.png",
       features: ["Entertainment Units", "Ambient Lighting", "Custom Furniture", "Space Planning"]
     },
     {
       title: "Dream Bedroom Sanctuaries",
       description: "Restful bedrooms designed for ultimate comfort, featuring luxurious materials and personalized touches",
-      image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&h=400&fit=crop",
+      // image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&h=400&fit=crop",
+      image: "/assets/drawingRoom/da49e5ae-e1da-4860-be51-28540a6ed822 - Copy - Copy.jpg",
       features: ["Walk-in Closets", "Reading Nooks", "Luxury Bedding", "Smart Lighting"]
     },
     {
       title: "Smart Wardrobe Solutions",
       description: "Custom storage solutions that maximize space while maintaining elegance and accessibility",
-      image: "https://images.unsplash.com/photo-1672137233327-37b0c1049e77?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2FyZHJvYmV8ZW58MHx8MHx8fDA%3D",
+      // image: "https://images.unsplash.com/photo-1672137233327-37b0c1049e77?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2FyZHJvYmV8ZW58MHx8MHx8fDA%3D",
+      image: "/assets/kidsBedroom/82184c2e-0deb-42ab-b796-d2d5601db452.jpg",
       features: ["Organized Systems", "Mirror Integration", "Shoe Racks", "Jewelry Drawers"]
     }
   ];
@@ -167,14 +171,15 @@ const DesignCafeHomepage: React.FC = () => {
     {
       title: "Expert Design Team",
       description: "Over 400 certified interior designers with expertise in modern, contemporary, and traditional styles",
-      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop",
+      // image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop",
+      image: "/assets/frontElevation/e312d731-c4f4-4463-855a-f693e13da92c.jpg",
       icon: Users,
       stats: ["400+ Designers", "10+ Years Experience", "Certified Professionals"]
     },
     {
       title: "Premium Quality Materials",
       description: "We source only the finest materials from trusted suppliers, ensuring durability and elegance in every project",
-      image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=400&fit=crop",
+      image: "/assets/frontElevation/ELEAVATION.jpg",
       icon: Award,
       stats: ["ISO Certified", "Premium Brands", "Quality Assured"]
     },
@@ -188,7 +193,7 @@ const DesignCafeHomepage: React.FC = () => {
     {
       title: "Comprehensive Warranty",
       description: "Industry-leading 10-year warranty on all work with lifetime support and maintenance services",
-      image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&h=400&fit=crop",
+      image: "/assets/drawingRoom/19a99e02-13b8-4416-8e5c-83f82c1fb4e4.jpg",
       icon: Shield,
       stats: ["10 Year Warranty", "Lifetime Support", "Free Maintenance"]
     }
@@ -199,21 +204,21 @@ const DesignCafeHomepage: React.FC = () => {
       title: "Modern Minimalist Villa",
       location: "Whitefield, Bangalore",
       type: "Complete Home",
-      image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=600&h=400&fit=crop",
+      image: "/assets/frontElevation/536d979c-20b7-4941-8311-8d732cceb98f.jpg",
       description: "A sleek 4BHK villa featuring clean lines, neutral colors, and smart storage solutions that maximize space while maintaining elegance."
     },
     {
       title: "Contemporary Urban Apartment",
       location: "Bandra, Mumbai",
       type: "3BHK Apartment",
-      image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=400&fit=crop",
+      image: "/assets/drawingRoom/f4c619f6-6786-4291-8bb4-38f302c0cb7f - Copy - Copy.jpg",
       description: "Urban sophistication meets comfort in this stunning apartment with custom furniture and innovative space utilization."
     },
     {
       title: "Luxury Penthouse Suite",
       location: "Anna Nagar, Chennai",
       type: "Penthouse",
-      image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop",
+      image: "/assets/drawingRoom/err.png",
       description: "Opulent penthouse design featuring premium materials, panoramic city views, and bespoke furniture pieces."
     }
   ];
@@ -350,7 +355,7 @@ const DesignCafeHomepage: React.FC = () => {
             <div className={`relative transition-all duration-1000 delay-300 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=700&h=500&fit=crop" 
+                  src="/assets/kidsBedroom/rw.png" 
                   alt="Modern interior design"
                   className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
                 />
